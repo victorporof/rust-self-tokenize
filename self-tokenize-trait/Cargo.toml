@@ -1,0 +1,13 @@
+[package]
+name = "self-tokenize-trait"
+version = "0.1.0"
+authors = ["Victor Porof <victor.porof@gmail.com>"]
+
+[lib]
+name = "self_tokenize_trait"
+
+[dependencies]
+num-traits = { version = "0.1", default_features = false }
+ordered-float = "0.5.0"
+quote = "0.3.15"
+smallvec = "0.6.0"
